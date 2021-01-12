@@ -1,0 +1,21 @@
+.Card{
+	width: 40%;
+	margin: auto;
+}
+
+.Card__parent{
+	width: 95%;
+	margin: 10px;
+	background-color: #FFF59D;
+	border-radius: 15px;
+	box-shadow: 0px 5px 7px -7px rgba(0,0,0,0.75);
+	color: #E64A19;
+	font-weight: 600;
+}
+
+
+@media (max-width: 768px){
+	.Card{
+		width: 95%;
+	}
+}
